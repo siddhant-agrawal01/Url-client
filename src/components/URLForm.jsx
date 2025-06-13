@@ -209,7 +209,7 @@ const URLForm = () => {
             />
 
             <InputField
-              label="Expiry Date"
+              label=""
               type="datetime-local"
               placeholder="Set when this link should expire (optional)"
               value={expiryDate}

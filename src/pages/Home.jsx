@@ -201,25 +201,7 @@ const Home = () => {
                 with advanced analytics and professional management tools.
               </p>
 
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto mb-12">
-                {[
-                  { number: "10K+", label: "Links Created" },
-                  { number: "99.9%", label: "Uptime" },
-                  { number: "1B+", label: "Clicks Tracked" },
-                  { number: "24/7", label: "Support" },
-                ].map((stat, index) => (
-                  <div
-                    key={index}
-                    className="bg-gradient-to-br from-white/5 to-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/10 hover:border-white/20 transition-all duration-300 hover:scale-105"
-                    style={{ animationDelay: `${index * 100}ms` }}
-                  >
-                    <div className="text-2xl md:text-3xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent mb-1">
-                      {stat.number}
-                    </div>
-                    <div className="text-white/60 text-sm">{stat.label}</div>
-                  </div>
-                ))}
-              </div>
+           
 
               <button
                 onClick={() => scrollToSection("create-section")}
@@ -405,7 +387,7 @@ const Home = () => {
 
             <div className="text-center pt-8 border-t border-white/10">
               <p className="text-white/40">
-                © 2024 LinkForge. Built with ❤️ for the modern web.
+                © 2025 LinkForge. Built by Siddhant.
               </p>
             </div>
           </div>

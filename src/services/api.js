@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 export const API = axios.create({
-  baseURL: 'http://localhost:5000/api/url'
+  baseURL: 'https://link-forge-backend-self.vercel.app/api/url'
 });
 export const getUrls = () => API.get('/all');
 

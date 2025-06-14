@@ -51,7 +51,7 @@ const URLList = () => {
 
   const copyToClipboard = async (shortCode) => {
     try {
-      const url = `http://localhost:5000/short/${shortCode}`;
+      const url = `https://link-forge-backend-self.vercel.app/short/${shortCode}`;
       await navigator.clipboard.writeText(url);
       setCopiedCode(shortCode);
       setTimeout(() => setCopiedCode(""), 2000);
@@ -254,7 +254,7 @@ const URLList = () => {
                       <div className="flex-1 min-w-0">
                         <div className="flex items-center gap-2 flex-wrap">
                           <a
-                            href={`http://localhost:5000/short/${url.shortCode}`}
+                            href={`https://link-forge-backend-self.vercel.app/short/${url.shortCode}`}
                             target="_blank"
                             rel="noreferrer"
                             className="text-lg font-bold text-blue-400 hover:text-blue-300 transition-colors duration-300 font-mono"
